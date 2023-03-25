@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.head{
+     width: 100%;
+    height: 100vh;
+ 
+    display: flex;
+    flex-direction: column;
+    background: url(Stratford\ Accounting.png) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-size: cover;
+   
+  
+  
+
+}
+
+
+
+
+ .head h1{
+    color: white;
+    margin-top: 400px;
+    margin-left: 80px;
+    font-size: 100px;
+}
+
+ .head h4{
+   margin-left: 80px;
+   color: darkgray;
+   font-size: 25px;
+}
+
+.image{
+   
+    display: flex ;
+    justify-content:space-around;
+    background-color: black;
+
+   
+    
+}
+
+.img{
+
+margin-left: 50px;
+}
+
+.word{
+color: white;
+margin-left: 40px;
+
+}
+
+.word h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.word h4{
+    font-size: 20px;
+    color: azure;
+   
+ 
+}
+
+
+#button{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    padding: 9px;
+    border-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+    
+    color:black;
+
+}
+
+.first{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.secund{
+    font-size: 25px;
+}
+
+.secund h1{
+color: gray;
+}
+
+
+.secund h4{
+    font-size: 18px;
+}
+
+
+.secund h1 span{
+    color:black;
+}
+
+
+.secund h4 span{
+    color:white;
+}
+
+
+.client{
+background-color: black;
+
+}
+.client .about{
+    color: white;
+    
+}
+
+
+.client .about h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.client .about h6{
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+   
+}
+
+.imaget{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imwo h5{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.easy{
+    background-color: white
+   font-size: 25px;
+   text-align: center;
+}
+
+.easy h1{
+   color: black;
+}
+
+
+.easy span{
+    color: gray;
+ }
+
+ 
+.servicet{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+
+}
+
+@media screen and (max-width:600px) {
+   .head{
+    width: 1200px;
+    height: 1000px;
+   }
+
+   .image{
+    width: 1200px;
+   }
+
+   .word{
+    width: 1000px;
+   }
+
+   .service{
+    width: 1200px;
+    height: 1000px;
+   }
+
+   .client{
+    width: 1200px;
+   }
+
+   .imaget{
+    width: 1200px;
+   }
+
+   .easy{
+    width: 1200px;
+   }
+
+   .servicet{
+    width: 1200px;
+   }
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:800px) {
+    .head{
+     width: 1500px;
+     
+    }
+ 
+    .image{
+     width: 1500px;
+    }
+ 
+    .word{
+     width: 1000px;
+    }
+ 
+    .service{
+     width: 1500px;
+     height: 1000px;
+    }
+ 
+    .client{
+     width: 1500px;
+    }
+ 
+    .imaget{
+     width: 1500px;
+    }
+ 
+    .easy{
+     width: 1500px;
+    }
+ 
+    .servicet{
+     width: 1500px;
+    }
+ }
+ 
+ 
+@media screen and (min-width:801px) and (max-width:1024px) {
+    .head{
+     width: 1800px;
+     
+    }
+ 
+    .image{
+     width: 1800px;
+    }
+ 
+    .word{
+     width: 1000px;
+    }
+ 
+    .service{
+     width: 1800px;
+     height: 1000px;
+    }
+ 
+    .client{
+     width: 1800px;
+    }
+ 
+    .imaget{
+     width: 1800px;
+    }
+ 
+    .easy{
+     width: 1800px;
+    }
+ 
+    .servicet{
+     width: 1800px;
+    }
+ }
+
+
+ 
+ 
